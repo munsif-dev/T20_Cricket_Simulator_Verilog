@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cricket_game_sim_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cricket_game_sim_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="623.501 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="185"></NameColumnWidth>
+      <ValueColumnWidth column_width="169"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/cricket_game_sim_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cricket_game_sim_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cricket_game_sim_tb/ball_sw" type="logic">
+      <obj_property name="ElementShortName">ball_sw</obj_property>
+      <obj_property name="ObjectShortName">ball_sw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cricket_game_sim_tb/team_switch" type="logic">
+      <obj_property name="ElementShortName">team_switch</obj_property>
+      <obj_property name="ObjectShortName">team_switch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cricket_game_sim_tb/inning_over" type="logic">
+      <obj_property name="ElementShortName">inning_over</obj_property>
+      <obj_property name="ObjectShortName">inning_over</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cricket_game_sim_tb/game_over" type="logic">
+      <obj_property name="ElementShortName">game_over</obj_property>
+      <obj_property name="ObjectShortName">game_over</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cricket_game_sim_tb/winner" type="logic">
+      <obj_property name="ElementShortName">winner</obj_property>
+      <obj_property name="ObjectShortName">winner</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cricket_game_sim_tb/lfsr_out" type="array">
+      <obj_property name="ElementShortName">lfsr_out[0:3]</obj_property>
+      <obj_property name="ObjectShortName">lfsr_out[0:3]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <obj_property name="Reversed">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cricket_game_sim_tb/runs" type="array">
+      <obj_property name="ElementShortName">runs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">runs[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/cricket_game_sim_tb/wickets" type="array">
+      <obj_property name="ElementShortName">wickets[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wickets[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

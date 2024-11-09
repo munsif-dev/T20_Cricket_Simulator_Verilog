@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/ball_counter.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/bcd_control.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/bcd_to_7_seg.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/binary_to_BCD.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/cricket_game_sim.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/decoder3to8.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/lfsr.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/mux8to1.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/rainbow_leds.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/score_and_wickets.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/score_comparator.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/scroll_leds.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/slowClock_10Hz.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/slowClock_1kHz.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sources_1/new/three_bit_counter.v" \
+"../../../../T20_CRICKET_SIMULATION_USING_VERILOG.srcs/sim_1/new/cricket_game_sim_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
